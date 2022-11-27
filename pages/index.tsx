@@ -2,11 +2,30 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-			<div className={`${styles.box} ${styles.purple}`} ></div>
-			<div className={`${styles.box} ${styles.orange}`} ></div>
-			<div className={`${styles.box} ${styles.yellow}`} ></div>
-			<div className={`${styles.box} ${styles.red}`} ></div>
-    </div>
+		<>
+			<header>Header Goes Here</header>
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Store</li>
+					<li>Contact</li>
+				</ul>
+			</nav>
+			<main>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
+			</main>
+		
+		</>
   )
 }
