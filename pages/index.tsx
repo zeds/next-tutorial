@@ -1,12 +1,9 @@
-import styles from '../styles/Home.module.css'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-			<div className={`${styles.box} ${styles.purple}`} ></div>
-			<div className={`${styles.box} ${styles.orange}`} ></div>
-			<div className={`${styles.box} ${styles.yellow}`} ></div>
-			<div className={`${styles.box} ${styles.red}`} ></div>
-    </div>
+		<div className="center">
+			<h2>Home Page</h2>
+		</div>
   )
 }
