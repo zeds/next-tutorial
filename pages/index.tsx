@@ -1,5 +1,3 @@
-import styles from '../styles/Home.module.css'
-
 export default function Home() {
   return (
 		<>
@@ -25,7 +23,6 @@ export default function Home() {
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam hic ullam esse natus, sapiente porro vero numquam minima harum maiores reprehenderit voluptatum praesentium consequuntur voluptate dolores fuga quas? Eum, totam?</p>
 			</main>
-		
 		</>
   )
 }
